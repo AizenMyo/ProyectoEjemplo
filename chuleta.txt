@@ -1,0 +1,37 @@
+--Descargar un repositorio--
+GitHub - Code copiar URL
+
+mkdir carpeta donde queramos meter
+
+git clone URL
+
+--Modificamos un repositorio--
+git status (vemos que hay algo modificado)
+
+git commit -am "Mensaje de lo que se ha hecho"
+
+git push origin main
+
+Vemos en gitHub que el cambio este
+
+--Agregar archivo--
+Creamos el archivo.
+
+git add nombre del archivo
+
+git commit -am "Se añade nombre del archivo"
+
+git push origin main -- subes arichivo
+
+Vemos en GitHub que este subido
+
+--Modificar desde la nube--
+Modificamos un archivo desde la nube cuando lo modifiquemos tenemos que bajar y darte a commit changes.
+
+git fetch -- Descarga los cambios que se hicieron en remoto(desde GitHub), pero no los actualiza
+
+git pull origin main --Actualiza los cambios en local, previamente descargados
+
+--Otros--
+Version de un programa -- git version
+
