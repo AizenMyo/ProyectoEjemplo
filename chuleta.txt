@@ -51,3 +51,4 @@ hacemos push del archivo y comprovamos en github que este cambiado
 
 git checkout -B nombre de la rama crea la rama y va directamente a la rama
 
+cambios desde el ordenaor de CEU
