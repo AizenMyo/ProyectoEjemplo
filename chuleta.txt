@@ -36,3 +36,5 @@ git pull origin main --Actualiza los cambios en local, previamente descargados
 Version de un programa -- git version
 
 esto esta mal
+
+esto esta bien
