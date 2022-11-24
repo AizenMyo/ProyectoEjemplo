@@ -1,5 +1,13 @@
---Descargar un repositorio--											-- Git Hub--
-												Cuando subamos dos archivos desde dos ramas tenemos que ir a github en el apartados de las ramas y unificamos lo cambios
+--Crear usuario--																		-- Git Hub--
+															Cuando subamos dos archivos desde dos ramas tenemos que ir a github en el apartados de las ramas y unificamos lo cambios
+git config --list --show-origin para configurar
+git config --global user.name "tunick"
+git config --global user.email "tucorreo"
+ssh-keygen -t ed25519 -C "tucorreo" // si no funciona usar ssh-keygen --t rsa --b 4096 --C "tucorreo" 
+clip <~/.ssh/id_ed25519.pub copiar la clave que hemos creado antes
+Vamos a GitHub en ajustes en SHH 
+
+--Descargar un repositorio--											
 GitHub - Code copiar URL
 
 mkdir carpeta donde queramos meter
